@@ -1,4 +1,24 @@
-*{
+* {
   background-color: azure;
 }
 
+.container__desktop {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding: 20px;
+}
+
+.imag {
+  flex: 0 0 auto; /* Não permite que essa div cresça ou encolha */
+  display: flex; /* Usa flexbox para centrar a imagem */
+  flex-direction: column; /* Alinha os itens verticalmente */
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  margin: 0 20px; /* Margem para espaçamento entre as colunas */
+}
+
+.imag img {
+  max-width: 10%; /* Faz a imagem se ajustar à largura do contêiner */
+  height: auto; /* Mantém a proporção da imagem */
+}

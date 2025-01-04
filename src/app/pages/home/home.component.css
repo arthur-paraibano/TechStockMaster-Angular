@@ -1,0 +1,5 @@
+.articles {
+    margin-left: 250px; /* Deixe espaço para a barra lateral */
+    padding: 20px; /* Adicione um pouco de espaçamento */
+    height: 100%; /* Para que ocupe toda a altura disponível */
+  }

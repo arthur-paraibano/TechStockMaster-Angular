@@ -58,7 +58,7 @@
 }
 
 .imag img {
-  max-width: 100%; /* Faz a imagem se ajustar à largura do contêiner */
+  max-width: 40%; /* Faz a imagem se ajustar à largura do contêiner */
   height: auto; /* Mantém a proporção da imagem */
 }
 
